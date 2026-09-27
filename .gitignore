@@ -1,0 +1,49 @@
+# Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+*.wasm
+
+# Go
+go.sum
+vendor/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+dist/
+build/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test coverage
+*.test
+*.out
+coverage/
+
+# Example build
+example/dist/
+
+# GoReleaser
+dist/
+
+playwright-report/
+test-results/
+docs/*
+!docs/1.0-release-readiness.md
+docs/
